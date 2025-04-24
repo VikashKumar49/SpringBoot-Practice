@@ -16,8 +16,11 @@ public class Application implements CommandLineRunner {
 		SpringApplication.run(Application.class, args);
 	}
 
+
+
 	@Override
 	public void run(String... args) throws Exception {
+		obj.eat();
 		obj.eat();
 	}
 }
